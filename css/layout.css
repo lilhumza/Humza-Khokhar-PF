@@ -206,18 +206,16 @@ ul#nav li.current a { color: #F06000; }
    color: #7A7A7A;
 }
 #about .profile-pic {
-   position: relative;
-   border-radius: 10%;
-   border-top-left-radius: 10%;
-   border-top-right-radius: 10%;
-   border-bottom-right-radius: 10%;
-   border-bottom-left-radius: 10%;
-   overflow: visible;
-   overflow-x: visible;
-   overflow-y: visible;
-   max-width: 1000%;
-   width: 120%;
-   margin-left: -70px;
+  border-radius: 10%;
+  overflow: visible;
+  max-width: 1000%;
+}
+.mobile {
+  display: none;
+}
+.desktop {
+  width: 120%;
+  margin-left: -70px;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
